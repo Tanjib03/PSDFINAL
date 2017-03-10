@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header_area {
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+
+.logo {
+	/*border: 1px solid red;*/
+	width: 30%;
+	display: inline-block;
+}
+
+.menu {
+	float: right;
+	/*width: 60%;*/
+	/*border: 1px solid red;*/
+	margin-top: 36px;
+	position: relative;
+
+
+}
+.menu ul li{
+	display: inline-block;
+    margin-right: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: coral;
+}
+
+
+.email {
+	position: absolute;
+	right: 198px;
+	top: 0;
+    color:grey;
+}
+
+.slider{
+
+	position: relative;
+}
+
+.title{
+	color:white;
+	position: absolute;
+	top:10px;
+	font-size:20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.text{
+	position: absolute;
+	top:252px;
+	background-color: black;
+	color: white;
+	text-transform: uppercase;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+.img1{
+
+	position: absolute;
+	top: 77px;
+right: 158px;
+bottom: 15px;
+}
+.img2{
+
+	position: absolute;
+	    top: 16px;
+    right: 0px;
+}
+.about_area{
+	/*border:2px solid red;*/
+	height: 323px;
+
+}
+
+.abo_text{
+	/*border:2px solid green;*/
+	 width: 242px;
+	 height: 320px;
+	
+	 right: 5px;
+	 display: inline-block;
+}
+
+.our{
+/*border: 2px solid green;*/
+width: 242px;
+height: 320px;
+position: relative;
+right: -286px;
+display: inline-block;
+top:-369px
+}
+
+.tes{
+
+/*border: 2px solid green;*/
+width: 242px;
+height: 320px;
+position: relative;
+right: -310px;
+display: inline-block;
+top:-385px
+
+}
+
+.portfolio_area{
+position: relative;
+	    width: 952px;
+    height: 317px;
+    /*border: 2px solid red;*/
+    margin-left: -19px;
+
+}
+
+.firstimg{
+	/*border:2px solid green;*/
+	    position: absolute;
+    top: 5px;
+    right: 485px;
+}
+}
+.secondimg{
+	/*border: 2px solid green;*/
+position: absolute;
+right: 492px;
+top: 9px;
+}
+
+.thirdimg{
+/*border: 2px solid green;*/
+position: absolute;
+top: 5px;
+right: 249px;
+
+}
+.fourthimg{
+/*border: 2px solid green;*/
+position: absolute;
+top: 5px;
+right: 2px;
+
+
+}
+
+.blog_area{
+/*border:2px solid green;*/
+widows: 40px;
+height: 210px;
+margin-left: -54px;
+
+}
+.blog_text{
+	width: 751px;
+	/*height: 100px;*/
+}
+.left-area ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+.right_area{
+	float: right;
+
+}
+.blog_image{
+	float: right;
+	overflow: hidden;
+	position: relative;
+	    top: -157px;
+    margin-right: -58px;
+}
+}
